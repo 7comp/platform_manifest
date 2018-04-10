@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="build/make" name="7comp/android_build" remote="github" revision="oreo" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="android" name="7comp/platform_manifest" revision="oreo" remote="github" />
+  <project path="external/DUtils" name="7comp/external_DUtils" remote="github" revision="oreo" />
+  <project path="frameworks/base" name="7comp/android_frameworks_base" remote="github" revision="oreo" />
+  <project path="frameworks/opt/slimrecent" name="7comp/frameworks_opt_slimrecent" remote="github" revision="oreo" />
+  <project path="lineage-sdk" name="7comp/lineage-sdk" remote="github" revision="oreo" />
+  <project path="packages/apps/alogcat" name="7comp/alogcat" remote="github" revision="oreo" />
+  <project path="packages/apps/Bluetooth" name="7comp/android_packages_apps_Bluetooth" remote="github" revision="oreo" />
+  <project path="packages/apps/CellBroadcastReceiver" name="7comp/android_packages_apps_CellBroadcastReceiver" groups="pdk-cw-fs,pdk-fs" remote="github" revision="oreo" />
+  <project path="packages/apps/DUI" name="7comp/packages_apps_DUI" remote="github" revision="oreo" />
+  <project path="packages/apps/EmergencyInfo" name="7comp/android_packages_apps_EmergencyInfo" groups="pdk-fs" remote="github" revision="oreo" />
+  <project path="packages/apps/Messaging" name="7comp/android_packages_apps_Messaging" remote="github" revision="oreo" />
+  <project path="packages/apps/ResurrectionOTA" name="7comp/packages_apps_ResurrectionOTA" remote="github" revision="oreo" />
+  <project path="packages/apps/Settings" name="7comp/Resurrection_packages_apps_Settings" remote="github" revision="oreo" />
+  <project path="packages/services/Telecomm" name="7comp/android_packages_services_Telecomm" remote="github" revision="oreo"  />
+  <project path="packages/services/Telephony" name="7comp/android_packages_services_Telephony" remote="github" revision="oreo" />
+  <project path="packages/apps/LineageParts" name="7comp/packages_apps_LineageParts" remote="github" revision="oreo" />
+  <project path="packages/overlays/Resurrection" name="7comp/android_packages_overlays_Resurrection" remote="github" revision="oreo" />
+  <project path="system/bt" name="7comp/android_system_bt" groups="pdk" remote="github" revision="oreo" />
+  <project path="system/core" name="7comp/system_core" remote="github" revision="oreo" />
+  <project path="vendor/rr" name="7comp/android_vendor_resurrection" remote="github" revision="oreo" />
+  
+  <!-- OmniRom additions -->
+  <project path="packages/apps/OmniStyle" name="7comp/android_packages_apps_OmniStyle" remote="github" revision="oreo" />
+  <project path="packages/services/OmniJaws" name="7comp/packages_services_OmniJaws" remote="github" revision="oreo" />
+  <project path="packages/apps/SnapdragonCamera2" name="omnirom/android_packages_apps_SnapdragonCamera2" remote="github" revision="android-8.1" />
+  <project path="packages/apps/OmniClock" name="omnirom/android_packages_apps_OmniClock" remote="github" revision="android-8.1" />
+</manifest>
