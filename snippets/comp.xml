@@ -28,6 +28,7 @@
   <project path="packages/overlays/Resurrection" name="7comp/android_packages_overlays_Resurrection" remote="github" revision="oreo" />
   <project path="system/bt" name="7comp/android_system_bt" groups="pdk" remote="github" revision="oreo" />
   <project path="system/core" name="7comp/system_core" remote="github" revision="oreo" />
+  <project path="system/sepolicy" name="7comp/android_system_sepolicy" remote="github" revision="oreo" />
   <project path="vendor/rr" name="7comp/android_vendor_resurrection" remote="github" revision="oreo" />
   
   <!-- OmniRom additions -->

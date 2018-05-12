@@ -4,5 +4,4 @@
   <project path="device/qcom/sepolicy" name="ResurrectionRemix/device_qcom_sepolicy" remote="github" revision="oreo" />
   <project path="frameworks/native" name="ResurrectionRemix/frameworks_native" remote="github" revision="oreo" />
   <project path="packages/apps/Trebuchet" name="ResurrectionRemix/android_packages_apps_Trebuchet" remote="github" revision="oreo" />
-  <project path="system/sepolicy" name="ResurrectionRemix/android_system_sepolicy" remote="github" revision="oreo" />
 </manifest>
