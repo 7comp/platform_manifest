@@ -31,9 +31,8 @@
   <project path="system/sepolicy" name="7comp/android_system_sepolicy" remote="github" revision="oreo" />
   <project path="vendor/rr" name="7comp/android_vendor_resurrection" remote="github" revision="oreo" />
   
-  <!-- OmniRom additions -->
+  <!-- other additions -->
   <project path="packages/apps/OmniStyle" name="7comp/android_packages_apps_OmniStyle" remote="github" revision="oreo" />
   <project path="packages/services/OmniJaws" name="7comp/packages_services_OmniJaws" remote="github" revision="oreo" />
-  <project path="packages/apps/SnapdragonCamera2" name="omnirom/android_packages_apps_SnapdragonCamera2" remote="github" revision="android-8.1" />
-  <project path="packages/apps/OmniClock" name="omnirom/android_packages_apps_OmniClock" remote="github" revision="android-8.1" />
+  <project path="packages/apps/Gallery2" name="AquariOS/packages_apps_Gallery2" remote="github" revision="a8.1.0" />
 </manifest>
