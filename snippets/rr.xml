@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="device/rr/sepolicy" name="ResurrectionRemix/device_rr_sepolicy" remote="github" revision="oreo" />
   <project path="device/qcom/sepolicy" name="ResurrectionRemix/device_qcom_sepolicy" remote="github" revision="oreo" />
   <project path="frameworks/native" name="ResurrectionRemix/frameworks_native" remote="github" revision="oreo" />
   <project path="packages/apps/Trebuchet" name="ResurrectionRemix/android_packages_apps_Trebuchet" remote="github" revision="oreo" />
