@@ -10,9 +10,12 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
   <project path="android" name="7comp/platform_manifest" revision="oreo" remote="github" />
+  <project path="bionic" name="7comp/android_bionic" groups="pdk" remote="github" revision="oreo" />
   <project path="device/rr/sepolicy" name="7comp/device_rr_sepolicy" remote="github" revision="oreo" />
+  <project path="device/qcom/sepolicy" name="7comp/device_qcom_sepolicy" remote="github" revision="oreo" />
   <project path="external/DUtils" name="7comp/external_DUtils" remote="github" revision="oreo" />
   <project path="frameworks/base" name="7comp/android_frameworks_base" remote="github" revision="oreo" />
+  <project path="frameworks/native" name="7comp/frameworks_native" remote="github" revision="oreo" />
   <project path="frameworks/opt/slimrecent" name="7comp/frameworks_opt_slimrecent" remote="github" revision="oreo" />
   <project path="lineage-sdk" name="7comp/lineage-sdk" remote="github" revision="oreo" />
   <project path="packages/apps/alogcat" name="7comp/alogcat" remote="github" revision="oreo" />
@@ -36,4 +39,6 @@
   <project path="packages/apps/OmniStyle" name="7comp/android_packages_apps_OmniStyle" remote="github" revision="oreo" />
   <project path="packages/services/OmniJaws" name="7comp/packages_services_OmniJaws" remote="github" revision="oreo" />
   <project path="packages/apps/Gallery2" name="AquariOS/packages_apps_Gallery2" remote="github" revision="a8.1.0" />
+  <project path="external/clang" name="DirtyUnicorns/android_external_clang" remote="github" revision="o8x" />
+  <project path="prebuilts/clang/host/linux-x86" name="DirtyUnicorns/android_prebuilts_clang_host_linux-x86" remote="github" revision="o8x" />
 </manifest>
