@@ -14,6 +14,7 @@
   <project path="device/rr/sepolicy" name="7comp/device_rr_sepolicy" remote="github" revision="oreo" />
   <project path="device/qcom/sepolicy" name="7comp/device_qcom_sepolicy" remote="github" revision="oreo" />
   <project path="external/DUtils" name="7comp/external_DUtils" remote="github" revision="oreo" />
+  <project path="frameworks/av" name="7comp/android_frameworks_av" groups="pdk" remote="github" revision="oreo" />
   <project path="frameworks/base" name="7comp/android_frameworks_base" remote="github" revision="oreo" />
   <project path="frameworks/native" name="7comp/frameworks_native" remote="github" revision="oreo" />
   <project path="frameworks/opt/slimrecent" name="7comp/frameworks_opt_slimrecent" remote="github" revision="oreo" />
