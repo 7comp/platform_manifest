@@ -10,7 +10,6 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
   <project path="android" name="7comp/platform_manifest" revision="oreo" remote="github" />
-  <project path="bionic" name="7comp/android_bionic" groups="pdk" remote="github" revision="oreo" />
   <project path="device/rr/sepolicy" name="7comp/device_rr_sepolicy" remote="github" revision="oreo" />
   <project path="device/qcom/sepolicy" name="7comp/device_qcom_sepolicy" remote="github" revision="oreo" />
   <project path="external/DUtils" name="7comp/external_DUtils" remote="github" revision="oreo" />
