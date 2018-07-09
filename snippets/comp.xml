@@ -40,7 +40,7 @@
   <!-- other additions -->
   <project path="packages/apps/OmniStyle" name="7comp/android_packages_apps_OmniStyle" remote="github" revision="oreo" />
   <project path="packages/services/OmniJaws" name="7comp/packages_services_OmniJaws" remote="github" revision="oreo" />
-  <project path="packages/apps/OmniSwitch" name="omnirom/android_packages_apps_OmniSwitch" remote="github" revision="android-8.1" />
+  <project path="packages/apps/OmniSwitch" name="7comp/android_packages_apps_OmniSwitch" remote="github" revision="oreo" />
   <project path="packages/apps/Gallery2" name="AquariOS/packages_apps_Gallery2" remote="github" revision="a8.1.0" />
   <project path="external/clang" name="DirtyUnicorns/android_external_clang" remote="github" revision="o8x" />
   <project path="prebuilts/clang/host/linux-x86" name="DirtyUnicorns/android_prebuilts_clang_host_linux-x86" remote="github" revision="o8x" />
