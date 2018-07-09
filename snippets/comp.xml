@@ -28,6 +28,7 @@
   <project path="packages/apps/Messaging" name="7comp/android_packages_apps_Messaging" remote="github" revision="oreo" />
   <project path="packages/apps/ResurrectionOTA" name="7comp/packages_apps_ResurrectionOTA" remote="github" revision="oreo" />
   <project path="packages/apps/Settings" name="7comp/Resurrection_packages_apps_Settings" remote="github" revision="oreo" />
+  <project path="packages/inputmethods/LatinIME" name="7comp/android_packages_inputmethods_LatinIME" remote="github" revision="oreo" />
   <project path="packages/services/Telecomm" name="7comp/android_packages_services_Telecomm" remote="github" revision="oreo"  />
   <project path="packages/services/Telephony" name="7comp/android_packages_services_Telephony" remote="github" revision="oreo" />
   <project path="packages/apps/LineageParts" name="7comp/packages_apps_LineageParts" remote="github" revision="oreo" />
